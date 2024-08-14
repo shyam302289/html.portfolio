@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Practice</title>
+    <style>
+        p{
+            color: red;
+        }
+        
+        .blackElement{
+            color: black;
+        }
+        
+        #greenelement{
+            color: green;
+        }
+         
+        *
+        {
+            color: black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <p>1. The element selector targets elements based on their HTML Tag name.</p>
+    <p class="blackElement">Class selector target elements based on the value of the class attribute.</p>
+    <p id="greenelement">ID selector target elements based on themvalue of the id attribute.</p>
+    <p draggable="true" value="4">Attribute selectors targets elements based on their attributes amd value.</p>
+    <p>The universal selector targets all elements</p>
+</body>
+</html>

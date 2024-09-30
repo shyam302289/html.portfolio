@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERY</title>  
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        
+        @media (min-width: 319px) and (max-width:480px) {
+            body{
+                background-color: lightsalmon;
+                .try{
+                    background-color: red;
+                }
+            }       
+        }
+        @media (min-width:481px) and (max-width:1200px) {
+           body{
+            background-color: powderblue;
+            try{
+                    background-color: red;
+                }
+           }
+            
+        }
+
+        @media (min-width:1201px) and (max-width:1600px) {
+            body{
+                background-color: limegreen;
+                try{
+                    background-color: red;
+                }
+            }
+        
+        }
+
+        @media(min-width:1601px) {
+            body{
+                background-color:seagreen;
+                try{
+                    background-color: blueviolet;
+                }
+            }
+        
+        }
+    </style>
+</head>
+<body>
+   <h1 class="try">hola amigo como estas</h1>
+</body>
+</html>

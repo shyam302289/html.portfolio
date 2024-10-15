@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements & Certifications</title>
+    <style>
+       
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.achievement {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.achievement:hover {
+    transform: translateY(-15px);
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.achievement-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.achievement:hover .achievement-img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
+h2 {
+    color: #2c3e50;
+    margin: 15px 0;
+}
+
+p {
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+    <link rel="stylesheet" href="achievements.css">
+</head>
+<body>
+    <header>
+        <h1>My Achievements & Certifications</h1>
+    </header>
+
+    <main>
+        <section class="achievement">
+            <div class="img-container">
+                <img src="C Certificate.jpg" width="500px" alt="Certification 1" class="achievement-img">
+            </div>
+            <h2>Certification in C Language</h2>
+            <p>Completed a professional certification course in Comprehensive C from EDUCBA Institution.</p>
+        </section>
+
+        <section class="achievement">
+            <div class="img-container">
+                <img src="CSS.png" alt="Award 1" class="achievement-img">
+            </div>
+            <h2>HTML and CSS Foundation Course</h2>
+            <p>Achieved an certification in HTML and CSS  from INFOSYS SPRINGBOARD.</p>
+        </section>
+
+        <section class="achievement">
+            <div class="img-container">
+                <img src="certtificate2.png" alt="Certification 2" class="achievement-img">
+            </div>
+            <h2>Online HTML Training Course</h2>
+            <p>Achieved an certification in HTML from INFOSYS SPRINGBOARD.</p>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Achievements. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
